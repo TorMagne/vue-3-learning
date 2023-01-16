@@ -14,6 +14,12 @@ import { useTaskStore } from '../stores/TaskStore';
 const taskStore = useTaskStore();
 // this is an reactive value
 const newTask = ref('');
+// the ref is the same as doing this in vue 2
+// data() {
+//     return {
+//       newTaks: '',
+//     };
+//   },
 
 // function for sending data to the TaskStore
 const handleSubmit = () => {

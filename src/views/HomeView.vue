@@ -56,4 +56,10 @@ const taskStore = useTaskStore();
 
 // this is an reactive value
 const filter = ref('all');
+// the ref is the same as doing this in vue 2
+// data() {
+//     return {
+//       filter: 'all',
+//     };
+//   },
 </script>
